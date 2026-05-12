@@ -164,7 +164,7 @@ footer p {
     }
 }
 
-@media screen and (min-width: 992px) { /* PC */
+@media screen and (min-width: 1400px) { /* PC 992 */
     #container {
         width: 995px;
         margin: 0px;
