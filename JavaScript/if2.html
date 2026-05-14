@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>조건문2</title>
+</head>
+<body>
+    <script>
+        var UserValue = prompt("숫자를 입력하세요", "");
+        
+        if (UserValue !==  null) { //확인버튼을 누를때
+            if(UserValue % 3 === 0)
+            alert("3의 배수 입니다.");
+            else{
+                alert("3의 배수가 아닙니다.");
+            }
+        }
+        else { //취소버튼을 누를때
+            alert("입력이 취소됐습니다.");
+        }
+    </script>
+    
+</body>
+</html>

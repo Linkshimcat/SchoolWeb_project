@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나이 계산하기</title>
+</head>
+<body>
+    <script>
+        var currentYear = 2026; //현재 년도
+        var birthday; //선언1
+        var age; //선언2
+
+        birthday = prompt("태어난 연도를 입력하세요. (YYYY)", "");
+        age = currentYear - birthday + 1;
+        document.write(currentYear + "년 현재<br>");
+        document.write(birthday + "년에 태어난 사람의 나이는" + age + "세 입니다.");
+        // ==은 결과만 같으면 true , ===은 타입까지 확인함
+        
+    </script>
+    
+</body>
+</html>
