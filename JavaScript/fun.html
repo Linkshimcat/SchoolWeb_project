@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+</head>
+<body>
+    <script>
+        function adderNum(x,y) { // (매개변수)
+            var num = x;
+            var num2 = y;
+            var sum = num + num2;
+            alert("결과 값: " + sum);
+        }
+
+        // var a = parseInt(prompt("정수를 입력하세요."));
+        // var b = parseInt(prompt("두 번째 정수를 입력하세요."));
+        // adderNum(a,b);
+
+        while (true) {
+            var a = parseInt(prompt("정수를 입력하세요."));
+            var b = parseInt(prompt("두 번째 정수를 입력하세요."));
+            
+            if (a === 0 || b === 0) {
+                alert("프로그램 종료");
+                break; // a,b가 0이면 break로 빠져나옴.
+            }
+
+            adderNum(a,b);
+        }
+
+        // for(;;) {
+        //     var a = parseInt(prompt("정수를 입력하세요."));
+        //     var b = parseInt(prompt("두 번째 정수를 입력하세요."));
+        //     adderNum(a,b);
+        // } 
+
+        // adderNum(3,2);
+        // adderNum(3,2);
+        // adderNum(3,2);
+        // adderNum(3,2);
+    </script>
+    
+</body>
+</html>
