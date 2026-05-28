@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>함수0528</title>
+    <style>
+        body {
+            padding-top: 20px;
+            text-align: center;
+        }
+        .accent {
+            font-weight: bold;
+            font-size:1.2em;
+            color:#00f;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        (function() { // 즉시 실행 함수
+            var userName = prompt("이름을 입력하세요.");
+            document.write("안녕하세요? <span class='accent'>" + userName + "</span>님!");
+        }()); 
+
+        let hi = (user) => document.write(user + "님, 안녕하세요?"); //화살표 함수
+        let sum = (a, b) => a + b; //화살표 함수 특징: 코드 한줄은 (중괄호, return 생략)
+    </script>
+    
+</body>
+</html>
